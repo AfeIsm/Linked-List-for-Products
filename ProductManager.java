@@ -91,7 +91,7 @@ public class ProductManager {
                     if (removed == null) {
                         System.out.println("List is empty. Nothing to delete.");
                     } else {
-                        removed.printID(); // “Print the first item on the list and then delete it.”
+                        removed.printID(); 
                         System.out.println("First item deleted");
                     }
                     break;
@@ -103,7 +103,7 @@ public class ProductManager {
                     if (removed == null) {
                         System.out.println("Product with ID " + id + " not found. Nothing deleted.");
                     } else {
-                        removed.printID(); // “Print particular IDed item and then delete it.”
+                        removed.printID(); 
                         System.out.println("Item deleted");
                     }
                     break;
