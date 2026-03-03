@@ -1,5 +1,5 @@
 public class Product implements IDedObject {
-    // Note: all data private, methods public (per instructions)
+
     private int productID;
     private String productName;
     private String supplierName;
@@ -23,13 +23,11 @@ public class Product implements IDedObject {
 
     @Override
     public void printID() {
-        // “prints all the variable values in separate lines”
         System.out.println(productID);
         System.out.println(productName);
         System.out.println(supplierName);
     }
 
-    // Optional getters/setters if you want them
     public int getProductID() { return productID; }
     public String getProductName() { return productName; }
     public String getSupplierName() { return supplierName; }
